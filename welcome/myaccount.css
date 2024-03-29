@@ -1,0 +1,180 @@
+body{
+	margin: 20px;
+	font-family: Helvetica, sans-serif;
+}
+
+.user_details{
+	background-color: #d5f4e6;
+	padding: 20px;
+
+}
+
+.user_ads_info{
+	background-color: #d5f4e6;
+	margin-top: 50px;
+	padding: 20px;
+
+}
+
+
+.myads, .mybids{
+	text-align: center;
+	color: #594545;
+
+}
+
+
+th, td{
+	padding: 8px;
+	margin: 2px;
+}
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-radius: 12px 12px 0 0;
+	overflow: hidden;
+	box-shadow: 0 2px 12px rgba(32, 32, 32, .3);
+	background: #fafafa;
+	text-align: center;
+	border: 6px solid #8D72E1;
+		}
+th,td{
+	padding: 12px 15px;
+}
+
+th{
+	background: #ba68c8;
+	color: #fafafa;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+}
+
+td{
+	font-family: 'Open Sans', sans-serif;
+}
+
+tr:nth-child(odd){
+	background-color: #eeeeee;
+}
+
+
+
+
+#change_pwd_modal{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0; 
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.change_pwd{
+	background-color: #f4f4f4;
+	margin: 20% auto;
+	padding: 20px;
+	width: 70%;
+	box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
+}
+
+.closeBtn{
+	color: #ccc;
+	float: right;
+	font-size: 30px;
+}
+
+.closeBtn:hover,.closeBtn:focus{
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.pwd_change_modal{
+	position: fixed;
+	z-index: 1;
+	left: 0; 
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.pwd_success{
+	background-color: #f4f4f4;
+	margin: 20% auto;
+	padding: 20px;
+	width: 50%;
+	box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
+}
+
+
+
+#pas{
+	/*display: none;*/
+	margin-left: 40px;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+
+#bid_placed_notice_modal{
+	/*display: none;*/
+	position: fixed;
+	z-index: 1;
+	left: 0; 
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.bid_placed_notice{
+	background-color: #f4f4f4;
+	margin: 20% auto;
+	padding: 20px;
+	width: 70%;
+	box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
+}
+
+.closeBtn, .closeBtn_bid{
+	color: #ccc;
+	float: right;
+	font-size: 30px;
+}
+
+
+
+.closeBtn_bid:hover,.closeBtn_bid:focus{
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+
+}
+
+
+#balance_add{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0; 
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.5);
+}
+
+#balance_add_inside{
+	background-color: #f4f4f4;
+	margin: 20% auto;
+	padding: 20px;
+	width: 40%;
+	box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
+}
